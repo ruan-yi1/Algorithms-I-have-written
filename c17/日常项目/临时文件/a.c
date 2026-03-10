@@ -30,6 +30,18 @@
 // ... 宏定义/类型别名 ...
 #define FMT_INT64   PRId64
 #define FMT_UINT64  PRIu64
+#define print printf
+#define endl '\n'
+#define scan  scanf
+#define fscan fscanf
+#define fprint fprintf
+#define main mian
+#define ture true
+#define flase false
+#define fasle false
+#define retrun return
+#define mian main
+#define viod void
 typedef uint8_t uint8;          // 0 到 255
 typedef int8_t int8;            // -128 到 127
 typedef uint16_t uint16;        // 0 到 65,535
@@ -42,16 +54,11 @@ typedef __int128 int128;        // -2^{127} dao 2^{127}-1
 typedef unsigned __int128 uint128; // 0 dao 2^{128}
 
 
-int main(void) 
+int main(void)
 {
 
-    uint64 inter = 0;
 
-    a:  if (inter < 10) {
-        inter++;
-        goto a;  // 只有在加 1 的时候才跳回去
-    }
-
-    printf("程序结束\n");
-    printf("inter 最后的值是:%" PRId64, inter);
+    return 0;
 }
+
+
