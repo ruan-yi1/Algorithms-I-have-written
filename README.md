@@ -1,5 +1,5 @@
 # Algorithms-I-have-written
-记录日常我写过的算法(md文件渲染失败请复制到你常用的Markdown编辑器查看)
+记录日常我写过的代码(md文件渲染失败请复制到你常用的Markdown编辑器查看)
 
 ## 我的C语言编译参数
 ```shell
